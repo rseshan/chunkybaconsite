@@ -2,6 +2,6 @@ $(document).ready(function(){
 
   $("a[rel=tooltip]").tooltip();
 
-  $("body").html($("body").html().replace(/Bacon/g,'<a href="#" data-toggle="tooltip" title="Bacon Beercan">Bacon</a>'));
+  $("body").html($("body").html().replace(/Bacon|bacon/g,'<a href="#" data-toggle="tooltip" title="Bacon Beercan">$&</a>'));
 
 });
